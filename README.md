@@ -64,8 +64,8 @@ Antes de executar o projeto, é necessário instalar o MySQL Installer e o MySQL
 1. Descarregue o instalador em: [MySQL Downloads](https://dev.mysql.com/downloads/installer/).
 2. Recomenda-se a versão **8.0.39**.
 
-![Instalação MySQL](./imagens/1.jpg)
-![Workbench](./imagens/2.jpg)
+![Instalação MySQL](./Projeto_kotlin_final_kickoof-master/imagens/1.jpg)
+![Workbench](./Projeto_kotlin_final_kickoof-master/imagens/2.jpg)
 
 ### Configuração da Base de Dados
 
@@ -79,8 +79,8 @@ Antes de executar o projeto, é necessário instalar o MySQL Installer e o MySQL
     - Selecione "Import from Self-Contained File" e aponte para o ficheiro `BD_kotlin`.
     - Escolha o schema de destino e clique em **Start Import**.
 
-![Criar schema](./imagens/6.jpg)
-![Importar BD](./imagens/7.jpg)
+![Criar schema](./Projeto_kotlin_final_kickoof-master/imagens/6.jpg)
+![Importar BD](./Projeto_kotlin_final_kickoof-master/imagens/7.jpg)
 
 ---
 
@@ -106,7 +106,7 @@ Ao aceder à página de login, deve introduzir o **nome de utilizador** e a **pa
 - Caso o nome de utilizador não exista ou a palavra-passe esteja incorreta, será informado de que as credenciais estão erradas.
 - Se os dados estiverem corretos, o sistema verificará se é administrador ou um utilizador normal e, com base nisso, será redirecionado para a página correspondente.
 
-![Login](./imagens/15.jpg)
+![Login](./Projeto_kotlin_final_kickoof-master/imagens/15.jpg)
 
 ---
 
@@ -127,7 +127,7 @@ Ao aceder à página de registo, terá de preencher os campos obrigatórios:
 
 Após todas as validações, a palavra-passe é criptografada e os dados são guardados na base de dados. Se tudo estiver correto, será redirecionado para uma página de sucesso.
 
-![Registo](./imagens/16.jpg)
+![Registo](./Projeto_kotlin_final_kickoof-master/imagens/16.jpg)
 
 ---
 
@@ -135,7 +135,7 @@ Após todas as validações, a palavra-passe é criptografada e os dados são gu
 
 Aqui é apresentado o Menu Principal para quem **não tem privilégios administrativos**.
 
-![Home](./imagens/17.jpg)
+![Home](./Projeto_kotlin_final_kickoof-master/imagens/17.jpg)
 
 Dentro deste menu tem as seguintes opções:
 
@@ -146,7 +146,7 @@ Dentro deste menu tem as seguintes opções:
 Aqui irá visualizar os resultados dos jogos. Pode filtrar por dia.  
 *Exemplo:* Selecionar `25/12/2024` e ver os jogos realizados nesse dia.
 
-![Resultados](./imagens/18.jpg)
+![Resultados](./Projeto_kotlin_final_kickoof-master/imagens/18.jpg)
 
 ---
 
@@ -159,7 +159,7 @@ Pode filtrar uma liga e visualizar:
 - Saldo de golos
 - Pontos
 
-![Classificação](./imagens/19.jpg)
+![Classificação](./Projeto_kotlin_final_kickoof-master/imagens/19.jpg)
 
 ---
 
@@ -168,7 +168,7 @@ Pode filtrar uma liga e visualizar:
 Aqui pode ver as notícias sobre as equipas ou jogadores.  
 Pode filtrar por categoria (ex: Transferências, Todos, etc.).
 
-![Noticias](./imagens/20.jpg)
+![Noticias](./Projeto_kotlin_final_kickoof-master/imagens/20.jpg)
 
 ---
 
@@ -182,7 +182,7 @@ Pode filtrar por categoria (ex: Transferências, Todos, etc.).
 
 Aqui é o Menu de Administração para quem tem privilégios administrativos. Permite gerenciar todos os aspectos do sistema.
 
-![Painel ADM](./imagens/21.jpg)
+![Painel ADM](./Projeto_kotlin_final_kickoof-master/imagens/21.jpg)
 
 ---
 
@@ -199,7 +199,7 @@ Esta view permite gerir os jogos de futebol que ocorrem na **data atual**.
 **Validações** asseguram a consistência dos dados e a elegibilidade dos jogadores.  
 Ao terminar um jogo, o sistema calcula automaticamente os resultados, atualiza as estatísticas das equipas na base de dados e ajusta o saldo de golos.
 
-![Gerir Resultados](./imagens/22.jpg)
+![Gerir Resultados](./Projeto_kotlin_final_kickoof-master/imagens/22.jpg)
 
 ---
 
@@ -211,7 +211,7 @@ Adicionar:
 - Descrição
 - Categoria
 
-![Publicar Notícias](./imagens/23.jpg)
+![Publicar Notícias](./Projeto_kotlin_final_kickoof-master/imagens/23.jpg)
 
 ---
 
@@ -222,7 +222,7 @@ Aqui no gerir utilizadores, vai poder:
 - Pesquisar o nome de um utilizador
 - Promover um utilizador a administrador
 
-![Gestão Utilizadores](./imagens/24.jpg)
+![Gestão Utilizadores](./Projeto_kotlin_final_kickoof-master/imagens/24.jpg)
 
 ---
 
@@ -233,7 +233,7 @@ Aqui pode:
 - Editar informações de equipas existentes (nome, emblema, jogadores)
 - Eliminar uma equipa
 
-![Gestão Equipas](./imagens/25.jpg)
+![Gestão Equipas](./Projeto_kotlin_final_kickoof-master/imagens/25.jpg)
 
 ---
 
@@ -244,7 +244,7 @@ Aqui poderá:
 - Editar uma liga
 - Eliminar uma liga
 
-![Gestão Ligas](./imagens/26.jpg)
+![Gestão Ligas](./Projeto_kotlin_final_kickoof-master/imagens/26.jpg)
 
 ---
 
@@ -255,7 +255,7 @@ Aqui pode:
 - Editar um jogo
 - Eliminar um jogo
 
-![Gestão Jogos](./imagens/27.jpg)
+![Gestão Jogos](./Projeto_kotlin_final_kickoof-master/imagens/27.jpg)
 
 ---
 
@@ -266,8 +266,8 @@ Aqui pode:
 | **Erro no Build (test)** | Pode ocorrer um erro durante os testes automatizados. Este erro pode ser ignorado, pois não impede a execução do projeto. |
 | **Erro SLF4J** | Ao iniciar, pode surgir um aviso sobre o SLF4J não ser encontrado. Se a aplicação conectar à base de dados, ignore a mensagem. |
 
-![Erro no Build](./imagens/28.jpg)
-![Erro SLF4J](./imagens/29.jpg)
+![Erro no Build](./Projeto_kotlin_final_kickoof-master/imagens/28.jpg)
+![Erro SLF4J](./Projeto_kotlin_final_kickoof-master/imagens/29.jpg)
 
 ---
 
@@ -278,4 +278,4 @@ Projeto desenvolvido por:
 - **Jorge Castro** - nº 2024454
 - **Turma:** DDM
 
-![ISTEC](./imagens/ISTEC.png)
+![ISTEC](./Projeto_kotlin_final_kickoof-master/imagens/ISTEC.png)
