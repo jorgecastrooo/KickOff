@@ -2,7 +2,7 @@
 
 O **KickOff** é um sistema web desenvolvido em **Kotlin** com o framework **Ktor** no backend, utilizando **HTML, CSS e JavaScript** para o frontend e **MySQL** como base de dados. O objetivo principal é a gestão completa de uma plataforma de resultados desportivos, notícias, ligas, clubes e classificações.
 
-![Estrutura de Pastas](./imagens/30.png)
+![Estrutura de Pastas](./Projeto_kotlin_final_kickoof-master/imagens/30.png)
 
 ---
 
